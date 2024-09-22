@@ -1,8 +1,8 @@
 FROM debian:stable-slim
 
-ENV ALGO="randomx"
-ENV POOL_ADDRESS="stratum+ssl://rx.unmineable.com:443"
-ENV WALLET_USER="LNec6RpZxX6Q1EJYkKjUPBTohM7Ux6uMUy"
+ENV ALGO="verushash"
+ENV POOL_ADDRESS="stratum+tcp://139.99.16.105:5040"
+ENV WALLET_USER="RLNVtg1jXXuRmMkvoi6EcaCFgQzNf5vBew"
 ENV PASSWORD="x"
 ENV EXTRAS="--api-enable --api-port 80 --disable-auto-affinity --disable-gpu"
 
